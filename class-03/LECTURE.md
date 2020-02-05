@@ -102,7 +102,7 @@ for ( var i = 0; i < foodsILike.length; i++) {
 }
 
 
-console.log(myString);
+console.log(myString); // My favorite foods are, Ice Cream, Mac & Cheese, Bacon
 ```
 
 - We can also use our understanding of truthy and falsey values to run some conditions in our loop to build a better string
@@ -118,7 +118,7 @@ for ( var i = 0; i < foodsILike.length; i++) {
 
   if (!foodsILike[i+1]) { // this will be true when we have reached the end of our favorite foods.
 
-  // By simply adding a '!' before the condition, we can reverse the 'false' to 'true' and can get our outlying operation to executer :)
+  // By simply adding a '!' before the condition, we can reverse the 'false' to 'true' and can get our outlying operation to add an extra word to our string :)
 
     myString += ', and ' + foodsILike[i];
   } else {
@@ -127,5 +127,5 @@ for ( var i = 0; i < foodsILike.length; i++) {
 }
 
 
-console.log(myString);
+console.log(myString); // My favorite foods are, Ice Cream, Mac & Cheese, and Bacon
 ```
