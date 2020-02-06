@@ -8,7 +8,7 @@
 
 ```css
 div {
-  position: fixed;
+  position: fixed || absolute || relative || static;
 }
 ```
 
@@ -21,12 +21,11 @@ div {
 ### Display
 
 - How to I display with my adjacent siblings.
- - inline: No height or width: displays inline with other siblings.
- - block: Takes up the whole width of its parent: and allows height and width.
- - inline-block: Displays inline, while also letting height and width be set.
+  - inline: No height or width: displays inline with other siblings.
+  - block: Takes up the whole width of its parent: and allows height and width.
+  - inline-block: Displays inline, while also letting height and width be set.
 
-
-## Functions!!
+## Functions
 
 - What / Why / Hooooow
 - The way we repeat operations. Stores javascript operations in a "variable"
@@ -61,7 +60,7 @@ retSum(1, 2);
 
 ```
 
-#### Defining function
+### Defining function
 
 ```js
 
@@ -103,8 +102,7 @@ IIFE
 
 ```
 
-
-### Pair Programming
+## Pair Programming
 
 - Creating code as a duo.
   - driver: Is the person that types!
